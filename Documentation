@@ -1,14 +1,17 @@
 Minecraft server
-The instance running a mine craft server. 
-1. 	Run the VM docker to hold the Minecraft server
-2. 	SSH key to the server
-3. 	Make a public IP address from the server
-4. 	Install java on the MV ware machine
-5. 	Install Minecraft server software, downloading the files
-6. 	Run the files (server)
-7. 	Edit the files, managing the Minecraft server (scripting to bootstrap, start, stop, backup, restore, and automating deployment)
-8. 	Open port in the server network (have to find what port that will be), we should find out if we can manually tell Minecraft what ports will be used
-9. 	Want a security list, ingress rules (at least 2: destination port range (TCP), protocol UDP traffic)
-10.  Open the ports on the VM’s firewall
-11.  Star the server, DONE
+
+Steps to run a Minecraft server on an Ubuntu Server image loaded onto an OpenStack instance. 
+
+1.  Instantiate an OpenStack profile. Only one compute and one controller node will be necessary.
+2.  Launch an instance of Ubuntu Server on OpenStack.
+3. 	SSH key to the server
+4. 	Make a public IP address from the server
+5. 	Install Java on the Ubuntu Server image
+6. 	Install Minecraft server software, downloading the files
+7. 	Run the files (server)
+8. 	Edit the files, managing the Minecraft server (scripting to bootstrap, start, stop, backup, restore, and automating deployment)
+9. 	Open port in the server network (have to find what port that will be), we should find out if we can manually tell Minecraft what ports will be used
+10. Want a security list, ingress rules (at least 2: destination port range (TCP), protocol UDP traffic)
+11. Open the ports on the VM’s firewall
+12. Star the server, DONE
 
