@@ -13,5 +13,5 @@ Steps to run a Minecraft server on an Ubuntu Server image loaded onto an OpenSta
 9. 	Open port in the server network (have to find what port that will be), we should find out if we can manually tell Minecraft what ports will be used
 10. Want a security list, ingress rules (at least 2: destination port range (TCP), protocol UDP traffic)
 11. Open the ports on the VM’s firewall
-12. Star the server, DONE
+12. Start the server, DONE
 
