@@ -3,7 +3,7 @@
 echo "This script will automatically install minecraft pre-req"
 
 apt update & apt upgrade -y 
-apt install -y openjdk-jdk-headless screen
+apt install -y openjdk-8-jre-headless screen
 
 mkdir ~/minecraft
 cd ~/minecraft
