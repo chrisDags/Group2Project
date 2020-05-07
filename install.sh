@@ -12,4 +12,4 @@ wget https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c63
 
 java -Xmx1024M -Xms1024M -jar server.jar nogui
 echo "eula=true" > ~/minecraft/eula.txt
-
+java -Xmx1024M -Xms1024M -jar server.jar nogui
