@@ -12,4 +12,7 @@ sudo apt install -y openjdk-8-jre-headless screen
 
 java -Xmx1024M -Xms1024M -jar server.jar nogui
 echo "eula=true" > ~/minecraft/eula.txt
+
+screen -S minecraft-server
+
 java -Xmx1024M -Xms1024M -jar server.jar nogui
